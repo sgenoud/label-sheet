@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+#edit-grid {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1rem;
+}
+
+
+.dropzone-container {
+    border: 3px dashed lightgrey;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-preview {
+    max-width: 100%;
+    cursor: pointer;
+}
+
+
+.input-container {
+    width: 100%;
+}
+
+.labelled-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.labelled-input input {
+    width: 100%;
+}
+
+.labelled-input select {
+    width: 100%;
+}
+
+.labelled-input label{
+    font-size: 0.8rem;
+}
+
+.edit-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
