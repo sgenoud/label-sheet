@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-import { Dropzone } from "./dropzone.jsx";
+import { Dropzone } from "./Dropzone.jsx";
 import { PDFViewer } from "@react-pdf/renderer";
 import { Labels, pageSize } from "./pdf.jsx";
 import { useImageSize } from "react-image-size";
